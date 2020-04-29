@@ -1,0 +1,123 @@
+/****Grid****/
+body {
+    width: 1600px;
+    background: black;
+    font-family: Raleway;
+    font-weight: 100;
+    line-height: 36px;
+    color: aqua;
+    Padding-left: 65px;
+}
+
+/******Header*****/
+header .half-width {
+    float: left;
+    width: 600px;
+}
+header {
+    height: 600px;
+    width: 1400px;
+    background: url('../img/comp.jpg');
+    background-size: cover;
+    margin: 10px;
+}
+header h2 {
+    font-size: 16px;
+    line-height: 30px;
+    color: lightgray;
+    float: left;
+    padding: 30px;
+}
+nav {
+    padding: 30px 45px;
+    float: right;
+}
+
+    nav ul li {
+        display: inline-block;
+        
+    }
+        nav ul li a {
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: dimgray;
+        }
+header h1 {
+    float: left;
+    font-family: lobster;
+    text-align: center;
+    font-size: 64px;
+    padding: 10px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    color: #00e6e6;
+}
+/******Main*****/
+main .half-width {
+    width: 650px;
+    padding: 25px;
+    float: left;
+}
+/*****Portfolio*****/
+#Portfolio .half-width {
+    height: 700px;
+}
+#Portfolio h2 {
+    line-height: 36px;
+    font-size: 34px;
+    padding-left: 40px;
+}
+#Portfolio p {
+    clear: both;
+}
+/*****About*****/
+#About .full-width {
+    clear: both;
+    height: 430px;
+    width: 1400px;
+    background: url('../img/about-me.jpg');
+    background-size: cover;
+}
+#About img {
+    float: right;
+}
+#About h2 {
+    padding-left: 40px;
+}
+#About {
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+}
+/****Contact****/
+#Contact .full-width {
+    height: 300px;
+    padding-top: 40px;
+}
+#Contact h2 {
+    line-height: 36px;
+    font-size: 34px;
+    padding-left: 40px;
+}
+#Contact .third-width {
+    float: left;
+    width: 475px;
+    text-align: center;
+}
+#Contact ul li {
+    display: inline-block;
+}
+    #Contact ul li a {
+        float: left;
+    }
+    /******Footer*****/
+    footer {
+    width: 1400px;
+    font-size: 12px;
+    line-height: 20px;
+    height: 35px;
+    clear: both;
+    text-align:center;
+}
